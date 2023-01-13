@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T13:03:08.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="J_ab_DYW8wLYCiMBmcDA" version="20.8.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-13T20:28:10.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MlhKMORrZIr4eKorkQqX" version="20.8.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Ex_1">
     <mxGraphModel dx="1194" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -465,7 +465,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Lik36i7zGZP4fAZVrJMu" name="Ex_6">
-    <mxGraphModel dx="1405" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1493" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -770,58 +770,153 @@
         <mxCell id="gOxh2SbkFaoSOvcC47Z1-85" value="&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;j -= step&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;direction=west;" parent="1" vertex="1">
           <mxGeometry x="1390.6399999999999" y="1161" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-1" target="BJSXIIVdXr8P-jg95Gzo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1815" y="75" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-2" value="SelectionSort" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;labelBackgroundColor=#FFFFFF;fontSize=25;" vertex="1" parent="1">
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-2" value="SelectionSort" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;labelBackgroundColor=#FFFFFF;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="1790" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-3" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap &amp;lt;  sort.get(j-step)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-3" target="BJSXIIVdXr8P-jg95Gzo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xz14_3UWKh5etCmd-H74-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-3" target="BJSXIIVdXr8P-jg95Gzo-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-3" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap &amp;lt;  sort.get(j-step)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1810" y="200" width="130" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-5" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap = sort.get(i);&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-5" target="BJSXIIVdXr8P-jg95Gzo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-5" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap = sort.get(i);&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1783.75" y="400" width="182.5" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-6" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;step = n / 2; step &amp;gt; 0;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-6" target="BJSXIIVdXr8P-jg95Gzo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-6" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;step = n / 2; step &amp;gt; 0;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1815" y="540" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-7" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;step = n / 2; step &amp;gt; 0;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-7" target="BJSXIIVdXr8P-jg95Gzo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-7" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;step = n / 2; step &amp;gt; 0;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1815" y="690" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-8" value="&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;j -= step&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;direction=west;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-8" target="BJSXIIVdXr8P-jg95Gzo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-8" value="&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;j -= step&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;direction=west;" parent="1" vertex="1">
           <mxGeometry x="1815" y="851" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-9" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;step = n / 2; step &amp;gt; 0;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-9" target="BJSXIIVdXr8P-jg95Gzo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-9" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;step = n / 2; step &amp;gt; 0;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1815" y="1000" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-10" value="&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;j -= step&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;direction=west;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-10" target="BJSXIIVdXr8P-jg95Gzo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-10" value="&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;j -= step&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;direction=west;" parent="1" vertex="1">
           <mxGeometry x="1815" y="1161" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-11" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap &amp;lt;  sort.get(j-step)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-11" target="BJSXIIVdXr8P-jg95Gzo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xz14_3UWKh5etCmd-H74-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-11" target="BJSXIIVdXr8P-jg95Gzo-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2000" y="1370" />
+              <mxPoint x="2000" y="1630" />
+              <mxPoint x="1875" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-11" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap &amp;lt;  sort.get(j-step)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1810" y="1300" width="130" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-12" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap = sort.get(i);&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-12" target="BJSXIIVdXr8P-jg95Gzo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-12" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap = sort.get(i);&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1783.75" y="1500" width="182.5" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-13" value="&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;j -= step&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;direction=west;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-13" target="BJSXIIVdXr8P-jg95Gzo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-13" value="&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;j -= step&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;direction=west;" parent="1" vertex="1">
           <mxGeometry x="1815" y="1670" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-14" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap &amp;lt;  sort.get(j-step)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-14" target="BJSXIIVdXr8P-jg95Gzo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xz14_3UWKh5etCmd-H74-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-14" target="BJSXIIVdXr8P-jg95Gzo-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1875" y="1970" />
+              <mxPoint x="2010" y="1970" />
+              <mxPoint x="2010" y="2130" />
+              <mxPoint x="1875" y="2130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-14" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap &amp;lt;  sort.get(j-step)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1810" y="1810" width="130" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-15" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap = sort.get(i);&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-15" target="BJSXIIVdXr8P-jg95Gzo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xz14_3UWKh5etCmd-H74-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-15" target="BJSXIIVdXr8P-jg95Gzo-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1730" y="2053" />
+              <mxPoint x="1730" y="55" />
+              <mxPoint x="1875" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-15" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap = sort.get(i);&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1783.75" y="2010" width="182.5" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-16" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap &amp;lt;  sort.get(j-step)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-16" target="BJSXIIVdXr8P-jg95Gzo-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xz14_3UWKh5etCmd-H74-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-16" target="BJSXIIVdXr8P-jg95Gzo-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1875" y="2330" />
+              <mxPoint x="2050" y="2330" />
+              <mxPoint x="2050" y="2470" />
+              <mxPoint x="1875" y="2470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-16" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap &amp;lt;  sort.get(j-step)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1810" y="2160" width="130" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-17" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap = sort.get(i);&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Xz14_3UWKh5etCmd-H74-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-17" target="BJSXIIVdXr8P-jg95Gzo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xz14_3UWKh5etCmd-H74-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-17" target="BJSXIIVdXr8P-jg95Gzo-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1730" y="2403" />
+              <mxPoint x="1730" y="55" />
+              <mxPoint x="1875" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-17" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;swap = sort.get(i);&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1783.75" y="2360" width="182.5" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-18" value="return sort;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-18" value="return sort;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1815" y="2510" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-19" value="return null;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-19" value="return null;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2090" y="235" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
