@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T20:34:17.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ck1pWe3nIFDM06GftmgK" version="20.8.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-13T20:34:35.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jCKswY72YmF3rQ-yf7jg" version="20.8.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Ex_1">
     <mxGraphModel dx="1194" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -776,8 +776,8 @@
         <mxCell id="BJSXIIVdXr8P-jg95Gzo-1" value="&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;quickSort(List&amp;lt;Integer&amp;gt; sort, int low, int high)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=default;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1815" y="75" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BJSXIIVdXr8P-jg95Gzo-2" value="SelectionSort" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;labelBackgroundColor=#FFFFFF;fontSize=25;" parent="1" vertex="1">
-          <mxGeometry x="1790" width="170" height="40" as="geometry" />
+        <mxCell id="BJSXIIVdXr8P-jg95Gzo-2" value="QuickSort" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;labelBackgroundColor=#FFFFFF;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="1810" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Xz14_3UWKh5etCmd-H74-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BJSXIIVdXr8P-jg95Gzo-3" target="BJSXIIVdXr8P-jg95Gzo-5">
           <mxGeometry relative="1" as="geometry" />
