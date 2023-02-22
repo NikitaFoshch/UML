@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T16:42:56.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4PA3Votg253TL6Lt8J_j" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T16:47:52.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="M81insmULk0topZas8be" version="20.8.22" type="github">
   <diagram name="Страница 1" id="cjMYpXDU1neyWdPNXTYv">
     <mxGraphModel dx="2514" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -499,16 +499,16 @@
         <mxCell id="y_SN-NrmRVWr8R5dMq1--240" value="description: varchar(1000)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
           <mxGeometry y="134" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="y_SN-NrmRVWr8R5dMq1--241" value="trailer_url: varchar(150)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
+        <mxCell id="y_SN-NrmRVWr8R5dMq1--242" value="type_3d: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
           <mxGeometry y="160" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="y_SN-NrmRVWr8R5dMq1--242" value="type_3d: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
+        <mxCell id="y_SN-NrmRVWr8R5dMq1--243" value="type_2d: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
           <mxGeometry y="186" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="y_SN-NrmRVWr8R5dMq1--243" value="type_2d: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
+        <mxCell id="y_SN-NrmRVWr8R5dMq1--244" value="type_imax: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
           <mxGeometry y="212" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="y_SN-NrmRVWr8R5dMq1--244" value="type_imax: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
+        <mxCell id="y_SN-NrmRVWr8R5dMq1--241" value="trailer_url: varchar(150)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
           <mxGeometry y="238" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="y_SN-NrmRVWr8R5dMq1--245" value="main_image: varchar(150)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y_SN-NrmRVWr8R5dMq1--237" vertex="1">
